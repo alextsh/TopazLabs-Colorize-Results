@@ -1,0 +1,6 @@
+As I don't have access to the code for the proof-of-concept that I made during my internship, I thought it would be nice to upload a brief powerpoint displaying the results of my work.
+
+To summarize the powerpoint's contents:
+1. I created a convolutional neural network (CNN) proof of concept (POC) to colorize greyscale images.
+2. Instead of using the standard RGB colorspace in the datafeed, I used YUV so the network would only have to calculate two values. (Y is luma/brightness and stays the same so we only have to find U and V instead of all of RGB)
+3. After about a week of training (with some adjustments to parts of the network), the results were fairly promising (~70% of reviewed images were of acceptable quality).
